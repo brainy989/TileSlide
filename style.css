@@ -1,0 +1,67 @@
+/* Global settings */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Base HTML settings */
+html {
+    font-size: 24px;    /* Sets the base font size for the document */
+}
+
+/* Body styling */
+body {
+    padding: 2rem;
+}
+
+/* Main game container */
+.game-container {
+    width: 7rem;
+    height: 7rem;
+    background-color: #666;
+    padding: 0.25rem;
+    position: relative;
+}
+
+/* Background grid that holds the cells */
+.grid-background {
+    width: 6.5rem;
+    height: 6.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+}
+
+/* Individual cell styling in the grid */
+.grid-cell {
+    width: 2rem;
+    height: 2rem;
+    background-color: #aaa;
+}
+
+/* Container for movable tiles */
+#tilesContainer {
+    position: absolute;
+    top: 0.25rem;
+    left: 0.25rem;
+    width: 6.5rem;
+    height: 6.5rem;
+}
+
+/* Styling for individual tiles */
+.tile {
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: chocolate;
+    color: aliceblue;
+    transition: 0.3s ease;
+}
+
+/* Reset button styling */
+#resetButton {
+    margin-top: 1rem;
+}

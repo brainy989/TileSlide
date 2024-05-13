@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tile Slide Puzzle Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main container for the game grid -->
+    <div class="game-container">
+        <!-- Background grid to provide a visual base for tiles -->
+        <div class="grid-background">
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+        </div>
+
+        <!-- Container for movable tiles -->
+        <div id="tilesContainer">
+            <div id="tile1" class="tile">1</div>
+            <div id="tile2" class="tile">2</div>
+            <div id="tile3" class="tile">3</div>
+            <div id="tile4" class="tile">4</div>
+            <div id="tile5" class="tile">5</div>
+            <div id="tile6" class="tile">6</div>
+            <div id="tile7" class="tile">7</div>
+            <div id="tile8" class="tile">8</div>
+            <!-- The ninth tile is implied to be the empty space -->
+        </div>
+
+        <!-- Reset button to reshuffle tiles -->
+        <button id="resetButton">Reset</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
